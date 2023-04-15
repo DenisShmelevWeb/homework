@@ -1,0 +1,100 @@
+* {
+   box-sizing: border-box;
+}
+
+.header {}
+
+body {
+   background-color: rgb(252, 255, 241);
+}
+
+.menu {
+   display: flex;
+   justify-content: center;
+   background-color: rgb(205, 233, 255);
+}
+
+.item {
+   margin: 10px 10px 10px 10px;
+   display: inline;
+}
+
+.a_menu {
+   text-decoration: none;
+   font-size: 14px;
+   color: #000;
+}
+
+.tea {
+   display: flex;
+   justify-content: center;
+   font-size: 12px;
+   text-decoration: none;
+}
+
+.tea_1 {
+   width: 250px;
+   margin: 20px 10px 20px 20px;
+   padding: 20px;
+   border: solid 1px rgb(53, 53, 53);
+   background-color: rgb(225, 244, 253);
+}
+
+.tea_2 {
+   width: 250px;
+   margin: 20px 20px 20px 10px;
+   padding: 20px;
+   border: solid 1px rgb(53, 53, 53);
+   background-color: rgb(225, 244, 253);
+}
+
+.tea_2 a {
+   text-decoration: none;
+   display: block;
+   margin-top: 10px;
+   color: rgb(252, 74, 62);
+   font-size: 16px;
+}
+
+.tea_1 a {
+   text-decoration: none;
+   display: block;
+   margin-top: 10px;
+   color: rgb(252, 74, 62);
+   font-size: 16px;
+}
+
+.tea_1 h3 {
+   font-size: 18px;
+   margin-bottom: 15px;
+}
+
+.tea_2 h3 {
+   font-size: 18px;
+   margin-bottom: 15px;
+}
+
+.video {
+   text-align: center;
+}
+
+.video iframe {
+   height: 320px;
+   width: 520px;
+}
+
+.footer {
+   height: 40px;
+   background-color: rgb(65, 65, 65);
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+}
+
+span {
+   color: rgb(255, 255, 255);
+   font-size: 14px;
+   margin-left: 5px;
+   margin-top: 13px;
+
+}
